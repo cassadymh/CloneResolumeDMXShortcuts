@@ -8,8 +8,8 @@ Resolume DMX Shortcuts Cloner — PRESERVE MODE (stream-safe)
 - Tight packing across 512-channel lumiverses (analog uses 2 channels).
 
 Usage:
-  python3 resolume_dmx_clone_preserve.py "Source.xml" "Dest.xml" --layers 23
-  python3 resolume_dmx_clone_preserve.py "Source.xml" "Dest.xml" --layers 23 --dry-run --print-all
+  python3 CloneResolumeDMXShortcuts.py "Source.xml" "Dest.xml" --layers 23
+  python3 CloneResolumeDMXShortcuts.py "Source.xml" "Dest.xml" --layers 23 --dry-run --print-all
 """
 
 import argparse, re
